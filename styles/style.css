@@ -57,24 +57,28 @@ section {
   background-color: var(--color-primary);
 }
 
-.sec1 {
+.sec1{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: rgb(186, 205, 90);
 }
 
-.sec2 {
+.sec2{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: slateblue;
 }
 
-.sec3 {
+.sec3{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: rgb(146,205,90);
 }
 
-.sec4 {
+.sec4{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: rgb(90, 205, 115);
 }
 
 .controls {
@@ -87,6 +91,10 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
+}
+.controls .active-btn{
+  background-color: var(--color-secondary) !important;
+        transition: all .4s ease-in-out;
 }
 .controls .control {
   padding: 1rem;

@@ -60,21 +60,29 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(186, 205, 90);
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(146,205,90);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(90, 205, 115);
+}
+
+.active{
+    display: block;
 }
 
 //Controls
@@ -88,6 +96,7 @@ section{
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+    //NOT WORKING - REVISIT
     .active-btn{
         background-color: var(--color-secondary) !important;
         transition: all .4s ease-in-out;
